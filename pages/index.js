@@ -24,8 +24,8 @@ export default function Home() {
     signInWithPopup(auth, provider, )
       .then((result) => {
         // User is signed in.
-        setUser(result.user.getIdToken());
-        console.log(result)
+        setUser(result.user.email);
+        console.log(result.user.email)
         // Provider data available in result.additionalUserInfo.profile,
         // or from the user's ID token obtained from result.user.getIdToken()
         // as an object in the firebase.sign_in_attributes custom claim.
@@ -45,7 +45,7 @@ export default function Home() {
   </Head>
     <div className='flex flex-col h-screen w-screen justify-center place-items-center' >
       <div className='flex flex-col w-[300px] h-[300px] p-12 bg-slate-100 rounded-xl space-y-4'>
-        <p>{user}</p>
+        <p className='text-blue-900'>{user}</p>
         <Button type="default" onClick={handleSSO}>Sign in with Jump Cloud</Button>
         <Button type="default" onClick={handleSignOut}>Sign out</Button>
       </div>
