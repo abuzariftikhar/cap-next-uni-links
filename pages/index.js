@@ -20,8 +20,8 @@ export default function Home() {
 
   const handleSSO = () => {
 
-    const provider = new SAMLAuthProvider('saml.firebase-saml');
-    signInWithPopup(auth, provider)
+    const provider = new SAMLAuthProvider('saml.firebase-test');
+    signInWithPopup(auth, provider, )
       .then((result) => {
         // User is signed in.
         setUser(result.user.getIdToken());
@@ -31,7 +31,7 @@ export default function Home() {
         // as an object in the firebase.sign_in_attributes custom claim.
       })
       .catch((error) => {
-        // Handle error.
+        console.error(error.message)
       })
   };
 
