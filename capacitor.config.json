@@ -1,0 +1,10 @@
+{
+  "appId": "com.inferifi.unilink",
+  "appName": "UniLink Test",
+  "webDir": "out",
+  "bundledWebRuntime": false,
+  "server": {
+    "url": "https://saml-integration-2ef60.web.app",
+    "cleartext": true
+  }
+}
