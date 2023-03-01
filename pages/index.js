@@ -1,4 +1,4 @@
-import { app} from 'config/firebaseConfig'
+import { app } from 'config/firebaseConfig'
 import React, { useState, useEffect } from 'react';
 import { Button } from 'antd';
 import { getAuth, SAMLAuthProvider, signInWithPopup } from "firebase/auth";
@@ -19,9 +19,8 @@ export default function Home() {
 
 
   const handleSSO = () => {
-
     const provider = new SAMLAuthProvider('saml.firebase-test');
-    signInWithPopup(auth, provider, )
+    signInWithPopup(auth, provider,)
       .then((result) => {
         // User is signed in.
         setUser(result.user.email);
@@ -40,9 +39,8 @@ export default function Home() {
   }
 
   return (<>
-  <Head>
-    
-  </Head>
+    <Head>
+    </Head>
     <div className='flex flex-col h-screen w-screen justify-center place-items-center' >
       <div className='flex flex-col w-[300px] h-[300px] p-12 bg-slate-100 rounded-xl space-y-4'>
         <p className='text-blue-900'>{user}</p>
