@@ -1,4 +1,12 @@
 {
-  "some": "someData",
-  "done": "someData"
+  "applinks": {
+    "apps": [],
+    "details": {
+      "8DTQ49G8J4.com.inferifi.dlfirebase": {
+        "paths": [
+          "*"
+        ]
+      }
+    }
+  }
 }
