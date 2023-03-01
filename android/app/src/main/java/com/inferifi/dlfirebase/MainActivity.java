@@ -1,4 +1,4 @@
-package com.inferifi.unilink;
+package com.inferifi.dlfirebase;
 
 import com.getcapacitor.BridgeActivity;
 

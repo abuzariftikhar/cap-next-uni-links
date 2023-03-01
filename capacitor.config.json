@@ -1,5 +1,5 @@
 {
-  "appId": "com.inferifi.unilink",
+  "appId": "com.inferifi.dlfirebase",
   "appName": "UniLink Test",
   "webDir": "out",
   "bundledWebRuntime": false,
@@ -12,3 +12,5 @@
     ]
   }
 }
+
+
