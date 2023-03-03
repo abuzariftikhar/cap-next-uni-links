@@ -1,0 +1,15 @@
+vars:
+  BUNDLE_ID:
+    default: com.inferifi.dlfirebase
+  PACKAGE_NAME:
+    default: com.inferifi.dlfirebase
+
+platforms:
+  ios:
+    targets:
+      App:
+        bundleId: $BUNDLE_ID
+        entitlements:
+          - com.apple.developer.associated-domains: ["applinks:inferifi.com"]
+  android:
+    packageName: $PACKAGE_NAME

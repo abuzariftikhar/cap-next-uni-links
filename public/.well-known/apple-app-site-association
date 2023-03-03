@@ -5,6 +5,7 @@
         "appIDs": [
           "8DTQ49G8J4.com.inferifi.dlfirebase"
         ],
+        "paths": ["*"],
         "components": [
           {
             "#": "no_universal_links",

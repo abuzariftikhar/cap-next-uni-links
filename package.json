@@ -12,6 +12,7 @@
   "dependencies": {
     "@capacitor/android": "^4.7.0",
     "@capacitor/cli": "^4.7.0",
+    "@capacitor/configure": "^2.0.10",
     "@capacitor/core": "^4.7.0",
     "@capacitor/ios": "^4.7.0",
     "antd": "^5.2.3",
