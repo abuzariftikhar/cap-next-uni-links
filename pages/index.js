@@ -57,7 +57,7 @@ import Link from "next/link";
 
 export default function IndexPage() {
   const redirecttoNativeApp = (/*potential params */) => {
-    document.location = "dlfirebase://";
+    document.location = "applink://";
   };
   return (
     <div>
