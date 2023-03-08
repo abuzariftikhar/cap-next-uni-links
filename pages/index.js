@@ -59,9 +59,19 @@ export default function IndexPage() {
   const redirecttoNativeApp = (/*potential params */) => {
     document.location = "myScheme://";
   };
+  const redirecttoAndroidApp = (/*potential params */) => {
+    document.location = "https://saml-integration-2ef60.web.app/";
+  };
   return (
-    <div>
-      <button onClick={redirecttoNativeApp}>Click to go to doordash</button>
+    <div className="flex h-screen w-screen place-items-center justify-center">
+      <div className="flex flex-col " >
+        <button onClick={redirecttoNativeApp} className="h-12 w-44 bg-slate-500 px-4 py-2 rounded-full">
+          Open iOS App
+        </button>
+        <button onClick={redirecttoNativeApp} className="h-12 w-44 bg-blue-800 px-4 py-2 rounded-full">
+          Open Android App
+        </button>
+      </div>
     </div>
   );
 }

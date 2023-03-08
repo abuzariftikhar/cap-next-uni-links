@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.inferifi.dlfirebase",
+      "sha256_cert_fingerprints": [
+        "57:83:03:F8:C1:A7:6A:02:60:F6:5E:12:97:F8:EA:65:E3:78:02:93:8E:B4:73:E2:79:A1:FD:4E:F5:86:45:AF"
+      ]
+    }
+  }
+]

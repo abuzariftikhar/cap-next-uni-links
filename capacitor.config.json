@@ -4,7 +4,7 @@
   "webDir": "out",
   "bundledWebRuntime": false,
   "server": {
-    "url": "https://cap-next-uni-links.vercel.app/",
+    "url": "https://saml-integration-2ef60.web.app/",
     "cleartext": false,
     "allowNavigation": [
       "saml-integration-2ef60.firebaseapp.com",
