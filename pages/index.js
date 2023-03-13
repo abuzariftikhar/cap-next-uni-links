@@ -60,15 +60,15 @@ export default function IndexPage() {
     document.location = "myScheme://";
   };
   const redirecttoAndroidApp = (/*potential params */) => {
-    document.location = "https://saml-integration-2ef60.web.app/";
+    document.location = "https://tresol.co/android";
   };
   return (
     <div className="flex h-screen w-screen place-items-center justify-center">
-      <div className="flex flex-col " >
+      <div className="flex flex-col space-y-6" >
         <button onClick={redirecttoNativeApp} className="h-12 w-44 bg-slate-500 px-4 py-2 rounded-full">
           Open iOS App
         </button>
-        <button onClick={redirecttoNativeApp} className="h-12 w-44 bg-blue-800 px-4 py-2 rounded-full">
+        <button onClick={redirecttoAndroidApp} className="h-12 w-44 bg-blue-800 px-4 py-2 rounded-full">
           Open Android App
         </button>
       </div>
